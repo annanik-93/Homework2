@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
-        double dog = 8.0;
-        double cat = 3.6;
-        long paper = 763789;
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
 
         System.out.println ();
         System.out.println ("Задание 1");
@@ -12,60 +12,48 @@ public class Main {
         System.out.println ("cat = " + cat);
         System.out.println ("paper = " + paper);
 
-        double dog1 = dog+4;
-        double cat1 = cat+4;
-        long paper1 = paper+4;
+        dog = dog+4;
+        cat = cat+4;
+        paper = paper+4;
         System.out.println ();
         System.out.println ("Задание 2");
-        System.out.println ("dog = " + dog1);
-        System.out.println ("cat = " + cat1);
-        System.out.println ("paper = " + paper1);
+        System.out.println ("dog = " + dog);
+        System.out.println ("cat = " + cat);
+        System.out.println ("paper = " + paper);
 
-        double dog2 = dog1-3.5;
-        double cat2 = cat1-1.6;
-        long paper2 = paper1-7639;
+        dog = dog-3.5;
+        cat = cat-1.6;
+        paper = paper-7639;
         System.out.println ();
         System.out.println ("Задание 3");
-        System.out.println ("dog = " + dog2);
-        System.out.println ("cat = " + cat2);
-        System.out.println ("paper = " + paper2);
+        System.out.println ("dog = " + dog);
+        System.out.println ("cat = " + cat);
+        System.out.println ("paper = " + paper);
 
-        int friend = 19;
-        int result1 = friend+2;
-        int result2 = result1/7;
+        var friend = 19;
         System.out.println ();
         System.out.println ("Задание 4");
         System.out.println (friend);
-        System.out.println (result1);
-        System.out.println (result2);
-        System.out.println ("второй вариант");
+        friend = friend+2;
         System.out.println (friend);
-        System.out.println (friend+2);
-        System.out.println (friend/7);
+        friend = friend/7;
+        System.out.println (friend);
 
-
-
-        double frog = 3.5;
-        double frog1 = frog*10;
-        double frog2 = frog1/3.5;
-        double frog3 = frog2+4;
+        var frog = 3.5;
         System.out.println ();
         System.out.println ("Задание 5");
         System.out.println (frog);
-        System.out.println (frog1);
-        System.out.println (frog2);
-        System.out.println (frog3);
-        System.out.println ("второй вариант");
+        frog = frog*10;
         System.out.println (frog);
-        System.out.println (frog*10);
-        System.out.println (frog/3.5);
-        System.out.println (frog+4);
+        frog = frog/3.5;
+        System.out.println (frog);
+        frog = frog+4;
+        System.out.println (frog);
 
-
-        double boxerMass1 = 78.2;
-        double boxerMass2 = 82.7;
-        double totalMass = boxerMass1 + boxerMass2;
-        double difference = totalMass - boxerMass1;
+        var boxerMass1 = 78.2;
+        var boxerMass2 = 82.7;
+        var totalMass = boxerMass1 + boxerMass2;
+        var difference = totalMass - boxerMass1;
         System.out.println ();
         System.out.println ("Задание 6");
         System.out.println ("boxerMass1 = " + boxerMass1);
@@ -73,16 +61,16 @@ public class Main {
         System.out.println ("totalMass = " + totalMass);
         System.out.println ("difference = " + difference);
 
-        double remainder = boxerMass2 % boxerMass1;
+        var remainder = boxerMass2 % boxerMass1;
         System.out.println ();
         System.out.println ("Задание 7");
         System.out.println ("remainder = " + remainder);
 
-        int ollTime= 640;
-        int employeeTime1 = 8;
-        int employee1 = ollTime/employeeTime1;
-        int employee2 = employee1+94;
-        int employeeTime2 =ollTime/employee2;
+        var ollTime= 640;
+        var employeeTime1 = 8;
+        var employee1 = ollTime/employeeTime1;
+        var employee2 = employee1+94;
+        var employeeTime2 =ollTime/employee2;
         System.out.println ();
         System.out.println ("Задание 8");
         System.out.println ("Всего работников в компании  = " + employee1 + " человек");
