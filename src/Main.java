@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
-        int dog = 8;
+        double dog = 8.0;
         double cat = 3.6;
         long paper = 763789;
 
@@ -12,32 +12,37 @@ public class Main {
         System.out.println ("cat = " + cat);
         System.out.println ("paper = " + paper);
 
-        int dog1 = dog+4;
+        double dog1 = dog+4;
         double cat1 = cat+4;
         long paper1 = paper+4;
         System.out.println ();
         System.out.println ("Задание 2");
-        System.out.println ("dog1 = " + dog1);
-        System.out.println ("cat1 = " + cat1);
-        System.out.println ("paper1 = " + paper1);
+        System.out.println ("dog = " + dog1);
+        System.out.println ("cat = " + cat1);
+        System.out.println ("paper = " + paper1);
 
         double dog2 = dog1-3.5;
         double cat2 = cat1-1.6;
         long paper2 = paper1-7639;
         System.out.println ();
         System.out.println ("Задание 3");
-        System.out.println ("dog2 = " + dog2);
-        System.out.println ("cat2 = " + cat2);
-        System.out.println ("paper2 = " + paper2);
+        System.out.println ("dog = " + dog2);
+        System.out.println ("cat = " + cat2);
+        System.out.println ("paper = " + paper2);
 
         int friend = 19;
-        int friend1 = friend+2;
-        int friend2 = friend1/7;
+        int result1 = friend+2;
+        int result2 = result1/7;
         System.out.println ();
         System.out.println ("Задание 4");
         System.out.println (friend);
-        System.out.println (friend1);
-        System.out.println (friend2);
+        System.out.println (result1);
+        System.out.println (result2);
+        System.out.println ("второй вариант");
+        System.out.println (friend);
+        System.out.println (friend+2);
+        System.out.println (friend/7);
+
 
 
         double frog = 3.5;
@@ -50,6 +55,12 @@ public class Main {
         System.out.println (frog1);
         System.out.println (frog2);
         System.out.println (frog3);
+        System.out.println ("второй вариант");
+        System.out.println (frog);
+        System.out.println (frog*10);
+        System.out.println (frog/3.5);
+        System.out.println (frog+4);
+
 
         double boxerMass1 = 78.2;
         double boxerMass2 = 82.7;
