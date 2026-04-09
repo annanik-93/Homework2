@@ -25,7 +25,7 @@ public class Main {
         cat = cat-1.6;
         paper = paper-7639;
         System.out.println ();
-        System.out.println ("Задание 3");
+        System.out.println ("Задание 3 ");
         System.out.println ("dog = " + dog);
         System.out.println ("cat = " + cat);
         System.out.println ("paper = " + paper);
