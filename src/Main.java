@@ -19,7 +19,7 @@ public class Main {
         System.out.println ("Задание 2");
         System.out.println ("dog = " + dog);
         System.out.println ("cat = " + cat);
-        System.out.println ("paper = " + paper);
+        System.out.println ("paper = " + paper );
 
         dog = dog-3.5;
         cat = cat-1.6;
